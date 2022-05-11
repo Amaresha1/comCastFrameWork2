@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-10T16:09:34 IST" name="Default suite" finished-at="2022-05-10T16:09:35 IST" duration-ms="169">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateModDelOrgTest.delOrgTest()[pri:0, instance:com.crm.comcast.orgTest.CreateModDelOrgTest@69997e9d]" name="delOrgTest" class="com.crm.comcast.orgTest.CreateModDelOrgTest"/>
+      </group> <!-- regressionTest -->
+      <group name="Integration">
+        <method signature="CreateModDelOrgTest.modOrgTest()[pri:0, instance:com.crm.comcast.orgTest.CreateModDelOrgTest@69997e9d]" name="modOrgTest" class="com.crm.comcast.orgTest.CreateModDelOrgTest"/>
+      </group> <!-- Integration -->
+      <group name="smokeTest">
+        <method signature="CreateModDelOrgTest.createOrgTest()[pri:0, instance:com.crm.comcast.orgTest.CreateModDelOrgTest@69997e9d]" name="createOrgTest" class="com.crm.comcast.orgTest.CreateModDelOrgTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-05-10T16:09:34 IST" name="Default test" finished-at="2022-05-10T16:09:35 IST" duration-ms="169">
+      <class name="com.crm.comcast.orgTest.CreateModDelOrgTest">
+        <test-method signature="createOrgTest()[pri:0, instance:com.crm.comcast.orgTest.CreateModDelOrgTest@69997e9d]" started-at="2022-05-10T16:09:34 IST" name="createOrgTest" finished-at="2022-05-10T16:09:35 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method signature="delOrgTest()[pri:0, instance:com.crm.comcast.orgTest.CreateModDelOrgTest@69997e9d]" started-at="2022-05-10T16:09:35 IST" name="delOrgTest" finished-at="2022-05-10T16:09:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delOrgTest -->
+        <test-method signature="modOrgTest()[pri:0, instance:com.crm.comcast.orgTest.CreateModDelOrgTest@69997e9d]" started-at="2022-05-10T16:09:35 IST" name="modOrgTest" finished-at="2022-05-10T16:09:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modOrgTest -->
+      </class> <!-- com.crm.comcast.orgTest.CreateModDelOrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

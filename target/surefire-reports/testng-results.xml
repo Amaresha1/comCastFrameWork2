@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="113" started-at="2022-05-11T10:48:57 IST" finished-at="2022-05-11T10:48:57 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateModDelConTest.delconTest()[pri:0, instance:com.crm.comcast.contactTest.CreateModDelConTest@490ab905]" name="delconTest" class="com.crm.comcast.contactTest.CreateModDelConTest"/>
+        <method signature="CreateModDelConTest.modconTest()[pri:0, instance:com.crm.comcast.contactTest.CreateModDelConTest@490ab905]" name="modconTest" class="com.crm.comcast.contactTest.CreateModDelConTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateModDelConTest.createconTest()[pri:0, instance:com.crm.comcast.contactTest.CreateModDelConTest@490ab905]" name="createconTest" class="com.crm.comcast.contactTest.CreateModDelConTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Surefire test" duration-ms="113" started-at="2022-05-11T10:48:57 IST" finished-at="2022-05-11T10:48:57 IST">
+      <class name="com.crm.comcast.contactTest.CreateModDelConTest">
+        <test-method status="PASS" signature="createconTest()[pri:0, instance:com.crm.comcast.contactTest.CreateModDelConTest@490ab905]" name="createconTest" duration-ms="13" started-at="2022-05-11T10:48:57 IST" finished-at="2022-05-11T10:48:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createconTest -->
+        <test-method status="PASS" signature="delconTest()[pri:0, instance:com.crm.comcast.contactTest.CreateModDelConTest@490ab905]" name="delconTest" duration-ms="0" started-at="2022-05-11T10:48:57 IST" finished-at="2022-05-11T10:48:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delconTest -->
+        <test-method status="PASS" signature="modconTest()[pri:0, instance:com.crm.comcast.contactTest.CreateModDelConTest@490ab905]" name="modconTest" duration-ms="1" started-at="2022-05-11T10:48:57 IST" finished-at="2022-05-11T10:48:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modconTest -->
+      </class> <!-- com.crm.comcast.contactTest.CreateModDelConTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
