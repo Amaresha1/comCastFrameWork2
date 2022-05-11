@@ -16,6 +16,7 @@ public class CreateModDelConTest
 		System.out.println("-----contact modified---------");
 	}
 	
+	//check conflict
 	@Test(groups = "regressionTest")
 	public void delconTest()
 	{
