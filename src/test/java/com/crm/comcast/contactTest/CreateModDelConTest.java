@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class CreateModDelConTest 
 {
-	@Test(groups = "smokeTest")
+	@Test(groups = "smokeTest")//hello master
 	public void createconTest()//create contact
 	{
 		System.out.println("-----contact created---------");
