@@ -1,0 +1,7 @@
+Class Rcb
+{
+  public void ESCN()
+  {
+  System.out.print("Shaa nu ");
+  }
+}
