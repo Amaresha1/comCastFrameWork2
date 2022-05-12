@@ -6,6 +6,7 @@ public class CreateModDelCampTest
 {
 	@Test(groups = "smokeTest")
 	public void createCampTest()
+		//sachin
 	{
 		System.out.println("-----campaign created---------");
 	}
